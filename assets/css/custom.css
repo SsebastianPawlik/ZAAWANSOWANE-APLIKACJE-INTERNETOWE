@@ -1,0 +1,525 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #f8f9fa !important;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes sure the padding doesn't affect the actual dimensions of the inputs */
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+#postMessage {
+    color: #d9534f;
+    margin-top: 10px;
+}
+.kontakt {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    color: #333;
+}
+
+.kontakt h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.data-wpisu {
+    font-style: italic;
+    color: #666;
+}
+
+.contact-label {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.email {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.phone {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+.tradycja-kontener {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.data-wpisu {
+    font-style: italic;
+    color: #888;
+}
+
+.zielone-tlo {
+    background-color: #e2f4e4;
+    padding: 10px;
+    border-left: 5px solid #2c662d;
+    margin: 20px 0;
+}
+
+.czerwony-tekst {
+    color: #d9534f;
+}
+
+iframe {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: none; /* Remove the default border for iframes in some browsers */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+}
+.kalendarz-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    color: #333;
+}
+
+.kalendarz-container h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.data-wpisu {
+    font-style: italic;
+    color: #666;
+}
+
+.opis-kalendarza p {
+    margin: 10px 0 20px;
+    line-height: 1.5;
+}
+
+.kalendarz-iframe {
+    width: 100%;
+    height: 600px;
+    border: none; /* Removes the default frame border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .kalendarz-iframe {
+        height: 400px; /* Adjusts the height for smaller devices */
+    }
+}
+.zasady_jazdy {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.zasady_jazdy h2 {
+    color: #0056b3; /* Niebieski kolor dla nagłówków */
+    margin-bottom: 10px;
+}
+
+.data-wpisu {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.zasady_jazdy p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.zasady_jazdy ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Dodaje standardowe kropki do listy */
+}
+
+.zasady_jazdy li {
+    margin-bottom: 5px; /* Odstępy między elementami listy */
+}
+
+.styled-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .zasady_jazdy {
+        padding: 15px;
+        margin: 10px;
+    }
+}
+.statut {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.statut h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+.data-wpisu {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.statut-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.statut-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.statut-link:hover {
+    background-color: #0056b3;
+}
+
+.date-right {
+    text-align: right;
+    font-style: italic;
+    color: #666;
+}
+
+
+/* Bardziej szczegółowy selektor dla linków w navbarze */
+.navbar .navbar-nav .nav-link {
+    margin-right: 10px; /* Margines między przyciskami */
+    color: #f8f9fa !important; /* Kolor tekstu */
+    border: 1px solid #f8f9fa; /* Obramowanie */
+    border-radius: 15px !important; /* Bardzo zaokrąglone rogi */
+    padding: 5px 15px; /* Dodatkowy padding, aby lepiej wyglądały zaokrąglenia */
+}
+
+/* Styl dla najechania myszką z większą specyfikacją */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa; /* Kolor tła przy najechaniu */
+    color: #000 !important; /* Kolor tekstu przy najechaniu */
+}
+
+/* Styl dla aktywnego przycisku z większą specyfikacją */
+.navbar .navbar-nav .nav-link.active {
+    background-color: #007bff; /* Tło aktywnego przycisku */
+    color: #fff !important; /* Kolor tekstu aktywnego przycisku */
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Czarne tło z przeźroczystością */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+.btn {
+    padding: .375rem .75rem; /* Standardowy padding dla przycisków Bootstrapa */
+    font-size: 1rem; /* Standardowa wielkość tekstu */
+    line-height: 1.5; /* Wysokość linii */
+    border-radius: .25rem; /* Zaokrąglenie rogów */
+}
+
+.carousel-caption p {
+    color: #fff; /* Biały tekst */
+    padding: 10px; /* Dodanie paddingu dla lepszego wyglądu */
+    width: 100%; /* Szerokość napisu */
+    font-size: 1.25rem; /* Rozmiar czcionki */
+}
+
+.btn-secondary {
+    min-width: 200px; /* Zapewnia jednolitą szerokość */
+    min-height: 70px; /* Zapewnia jednolitą wysokość */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-column {
+    border-right: 2px solid #ccc; /* Dostosuj kolor według potrzeb */
+}
+
+.post-preview {
+    border-right: 2px solid #dee2e6; /* Bootstrapowa kolorystyka dla linii oddzielającej */
+    padding-right: 15px; /* Dodaje trochę przestrzeni między linią a treścią posta */
+    margin-bottom: 20px; /* Oddziela wizualnie posty od siebie */
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.sidebar h3 {
+    color: #333;
+}
+
+.sidebar ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: #343a40; /* Ciemnoszare tło */
+    padding: 20px;
+    color: #fff; /* Biały tekst */
+}
+
+.sidebar h3 {
+    border-bottom: 2px solid #ffc107; /* Żółta linia pod tytułem sekcji */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #ffc107; /* Żółty kolor tekstu */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li a {
+    color: #ffc107; /* Żółty kolor linków */
+    text-decoration: none;
+    padding: 5px 0; /* Dodanie paddingu dla linków */
+    display: block; /* Sprawia, że cały obszar jest klikalny */
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff; /* Biały kolor linków przy najechaniu */
+    background-color: #495057; /* Ciemniejsze tło linku przy najechaniu */
+}
+
+.post {
+    border-bottom: 1px solid #ccc; /* Dodaje linię oddzielającą na dole każdego posta */
+    padding-bottom: 15px; /* Dodaje odstęp na dole posta */
+    margin-bottom: 15px; /* Dodaje odstęp między postami */
+}
+
+.col-md-8 {
+    border-right: 2px solid #ccc;
+}
+
+.sidebar h4, .sidebar ul {
+    border-bottom: 1px solid #ccc; /* Dodaje linię oddzielającą dla tytułów i list */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Główny kolor przycisku */
+    border-color: #007bff; /* Kolor obramowania */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Ciemniejszy kolor podczas najechania */
+    border-color: #0056b3;
+}
+
+.btn-secondary {
+    margin-top: 10px; /* Dodaje odstęp na górze dla drugiego przycisku, jeśli jest */
+}
+
+.post img {
+    border: 3px solid #ddd; /* Dodaje ramkę wokół obrazu */
+    padding: 5px; /* Dodaje odstęp między ramką a obrazem */
+    border-radius: 8px; /* Dodaje zaokrąglenia narożników */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Dodaje delikatny cień dla efektu głębi */
+    margin-bottom: 15px; /* Dodaje odstęp na dole obrazu */
+}
+
+.login-popup {
+    display: none; /* Ukrywa popup domyślnie */
+    position: fixed; /* Pozycjonowanie względem okna przeglądarki */
+    z-index: 1; /* Upewnia się, że popup jest na wierzchu */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Umożliwia przewijanie, jeśli potrzebne */
+    background-color: rgb(0,0,0); /* Kolor tła */
+    background-color: rgba(0,0,0,0.4); /* Kolor tła z przezroczystością */
+}
+
+.login-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Marginesy, aby centrować na stronie */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Maksymalna szerokość */
+    max-width: 450px; /* Maksymalna szerokość */
+}
+
+.close {
+    color: #aaa;
+    float:right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#loginError {
+    color: #721c24; /* Ciemnoczerwony kolor tekstu */
+    background-color: #f8d7da; /* Jasnoróżowe tło */
+    border-color: #f5c6cb; /* Kolor obramowania */
+    padding: .75rem 1.25rem; /* Odstępy wewnątrz komunikatu */
+    margin-bottom: 1rem; /* Odstęp na dole komunikatu */
+    border: 1px solid transparent; /* Obramowanie */
+    border-radius: .25rem; /* Zaokrąglenie rogów */
+}
+
+.modal-content {
+    background-color: #333; /* Ciemne tło dla modalu */
+    color: #fff; /* Biały kolor tekstu */
+}
+
+.modal-header, .modal-body, .modal-footer {
+    border-color: #444; /* Kolor linii oddzielających sekcje modalu */
+}
+
+h1, h2 {
+    color: #ff4500; /* Czerwony kolor dla nagłówków */
+}
+/* Bardziej szczegółowy selektor dla linków w navbarze */
+.navbar .navbar-nav .nav-link {
+    margin-right: 10px; /* Margines między przyciskami */
+    color: #f8f9fa !important; /* Kolor tekstu */
+    border: 1px solid #f8f9fa; /* Obramowanie */
+    border-radius: 15px !important; /* Bardzo zaokrąglone rogi */
+    padding: 5px 15px; /* Dodatkowy padding, aby lepiej wyglądały zaokrąglenia */
+}
+
+/* Styl dla najechania myszką z większą specyfikacją */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa; /* Kolor tła przy najechaniu */
+    color: #000 !important; /* Kolor tekstu przy najechaniu */
+}
+
+/* Styl dla aktywnego przycisku z większą specyfikacją */
+.navbar .navbar-nav .nav-link.active {
+    background-color: #007bff; /* Tło aktywnego przycisku */
+    color: #fff !important; /* Kolor tekstu aktywnego przycisku */
+}
